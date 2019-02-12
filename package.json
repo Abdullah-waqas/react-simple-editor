@@ -1,10 +1,10 @@
 {
   "name": "react-simple-editor",
   "version": "1.0.0",
-  "description": "Simple editor",
+  "description": "Very basic text editor on react",
   "author": "Abdullah-waqas",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/Abdullah-waqas/react-simple-editor",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
