@@ -15,15 +15,23 @@ npm install --save react-simple-editor
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-simple-editor'
+import SimpleEditor from 'react-simple-editor'
 
-class Example extends Component {
-  render () {
+export default class App extends Component {
+  render() {
     return (
-      <MyComponent />
+      <div>
+        <SimpleEditor
+          getTextObject={(obj) => console.log(obj)}
+          getTextOnType={(obj) => console.log(obj)}
+          showHTML={true}
+          getTextButton={(obj) => console.log(obj)}
+        />
+      </div>
     )
   }
 }
+
 ```
 
 ## License
